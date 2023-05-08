@@ -1,0 +1,11 @@
+<npc name="Tristan" script="data/npc/scripts/Liberty Bay/Tristan.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="128" head="78" body="86" legs="114" feet="116" addons="0"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_placedinqueue" value="Please wait a moment, |PLAYERNAE|."/>
+<parameter key="message_walkaway" value="Be careful on your journeys."/>
+<parameter key="message_farewell" value="Be careful on your journeys."/>
+<parameter key="message_idletimeout" value="Be careful on your journeys."/>
+	</parameters>
+</npc>

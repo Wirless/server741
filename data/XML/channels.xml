@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<channel id="1" name="Party"/>
+	<channel id="2" name="Counselor" access="1"/>
+	<channel id="3" name="Rule Violations" logged="yes" access="4"/>
+	<channel id="4" name="Game-Chat" level="2" logged="yes"/>
+	<channel id="5" name="Trade" level="2" muted="120" conditionId="3" conditionMessage="You may only place one offer in 120 seconds."/>
+	<channel id="6" name="EN-Chat" level="2" logged="yes"/>
+	<channel id="7" name="Help" logged="yes"/>
+	<channel id="8" name="Trade Paypal" logged="yes"/>
+	<channel id="65535" name="Private Chat Channel" logged="yes"/>
+	<channel id="9" name="Bugs" loged="yes" level="8" conditionId="55" conditionMessage="This is bugs channel\n It IS logged \n put any information and we will try to fix it asap\n game was throughtfully checked before release\n so we should not have anything to fear."/>
+	<channel id="10" name="PL-Chat" level="2" logged="yes"/>
+	<channel id="11" name="SWE-Chat" level="2" logged="yes"/>
+	<channel id="12" name="BR-Chat" level="2" logged="yes"/>
+	<channel id="13" name="TR-Chat" level="2" logged="yes"/>
+	<channel id="14" name="Guild Wars Talk" level="2" logged="yes"/>
+	
+</channels>

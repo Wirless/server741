@@ -1,0 +1,18 @@
+<npc name="" script="data/npc/scripts/.lua" floorchange="0" walkinterval="3000" speed="140">
+	<health now="100" max="100"/>
+#########################
+	<parameters>
+<parameter key="talkradius" value=""/>Don't forget 1 sqm = in same sqm as the npc
+<parameter key="idletime" value=""/>
+<parameter key="message_greet" value=""/>
+<parameter key="message_placedinqueue" value=""/>
+<parameter key="message_walkaway" value=""/>
+<parameter key="message_farewell" value=""/>
+<parameter key="message_idletimeout" value=""/>
+<parameter key="message_alreadyfocused" value=""/>
+
+<parameter key="message_decline" value=""/>
+<parameter key="message_nothaveitem" value=""/>
+<parameter key="message_needmoremoney" value=""/>
+	</parameters>
+</npc>

@@ -1,0 +1,67 @@
+
+weapon box // carpet box // skillsbox
+ZZZ after death
+
+
+
+
+runka na drzwi co znikaja po x sekundach
+
+
+--
+ for pvp, skillincrease, outfits
+EXPLORER XP
+
+REMOVE DJINNS DIFFERENT ITEMS BOUGHT BY DIFFERENT NPCS.
+
+TODO
+8100
+dwarf mines keys
+
+PERKS
+
+RUNY W RENKACH :))) ESSA ORAMY FRAJERUW
+
+STALAGMITES IN CAVES?
+
+
+
+
+--
+//
+--
+
+
+
+
+local function regenPercentageHealthOverTime(cid, percentage, delay)
+    print("-------")
+    if not isPlayer(cid) then
+        print("regen stopped. Player no longer exists.")
+        return true
+    end
+    print(getCreatureName(cid))
+    if getCreatureCondition(cid, CONDITION_INFIGHT) == false then
+        print("Regen is active.")
+        local currentHealth = getCreatureHealth(cid)
+        local maxHealth = getCreatureMaxHealth(cid)
+        if currentHealth < maxHealth then
+            local percentHealth = (maxHealth / 100) * percentage
+            if currentHealth + percentHealth > maxHealth then
+                percentHealth = maxHealth - currentHealth
+            end
+            doCreatureAddHealth(cid, percentHealth)
+            print("Player recovered " .. percentHealth .. " health.")
+        else
+            print("Player is at max health. No healing provided.")
+        end
+    else
+        print("Regen is in-active due to combat.")
+    end
+    addEvent(regenPercentageHealthOverTime, delay, cid, percentage, delay)
+end
+
+function onLogin(cid)
+    regenPercentageHealthOverTime(cid, 5, 5000)
+    return true
+end

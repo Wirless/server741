@@ -1,0 +1,42 @@
+<raid>
+	<!-- delay 1000 -->
+	<areaspawn delay="1000" radius="4" centerx="32068" centery="32226" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<!-- delay 3000 -->
+	<areaspawn delay="3000" radius="5" centerx="32093" centery="32229" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32081" centery="32214" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32060" centery="32177" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32099" centery="32183" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32103" centery="32192" centerz="5">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32026" centery="32195" centerz="6">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32091" centery="32185" centerz="7">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="4" centerx="32091" centery="32205" centerz="7">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	<areaspawn delay="3000" radius="5" centerx="32106" centery="32213" centerz="7">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	
+	<areaspawn delay="3000" radius="5" centerx="32059" centery="32232" centerz="7">
+		<monster name="snake" minamount="10" maxamount="15"/>
+	</areaspawn>
+	
+	<areaspawn delay="3000" radius="50" centerx="32070" centery="32192" centerz="7">
+		<monster name="snake" minamount="200" maxamount="300"/>
+	</areaspawn>
+</raid>

@@ -1,0 +1,11 @@
+<npc name="Hawkyr" script="data/npc/scripts/Svargrond/Hawkyr.lua" floorchange="0" walkinterval="3000" speed="140">
+	<health now="100" max="100"/>
+	<look type="129" head="1" body="120" legs="116" feet="43"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_placedinqueue" value="Please wait a minute |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Bye."/>
+<parameter key="message_farewell" value="Bye."/>
+<parameter key="message_idletimeout" value="Bye."/>
+	</parameters>
+</npc>

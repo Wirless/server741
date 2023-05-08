@@ -1,0 +1,4 @@
+<npc name="GOD" script="data/npc/scripts/example.lua" floorchange="0" walkinterval="0" speed="100">
+	<health now="100" max="100"/>
+	<look type="128" head="0" body="0" legs="0" feet="0"/>
+</npc>

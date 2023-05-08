@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Talphion" script="data/npc/scripts/Talphion.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="160" head="11" body="86" legs="87" feet="106" addons="0"/>
+</npc>
+<!--
+if(msgcontains(msg, "new dress pattern")) then
+		if(getPlayerStorageValue(cid, 250)) == 15 then
+			npcHandler:say("DRESS FLATTEN? WHO WANTS ME TO FLATTEN A DRESS? ", cid)
+			npcHandlerfocus = 2
+		elseif(npcHandlerfocus == 2) then
+			npcHandler:say("A PRESS LANTERN? NEVER HEARD ABOUT IT! ", cid)
+			npcHandlerfocus = 3
+		elseif(npcHandlerfocus == 3) then
+			npcHandler:say("CHESS? I DONT PLAY CHESS! ", cid)
+			npcHandlerfocus = 4
+		elseif(npcHandlerfocus == 4) then
+			npcHandler:say("A PATTERN IN THIS MESS?? HEY DON'T INSULT MY MACHINEHALL! ", cid)
+			npcHandlerfocus = 5
+		elseif(npcHandlerfocus == 5) then
+			npcHandler:say("AH YES! I WORKED ON THE DRESS PATTERN FOR THOSE UNIFORMS. STAINLESS TROUSERES, STEAM DRIVEN BOOTS! ANOTHERMARVEL TO BEHOLD! I'LL SENT A COPY TO KEVIN IMEDIATELY!", cid)
+			setPlayerStorageValue(cid, 250, 16)
+			npcHandlerfocus = 0
+			-->

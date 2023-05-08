@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="3600000" event="script" value="save.lua"/>
+	<!--globalevent name="clean" interval="7200000" event="script" value="clean.lua"/ -->
+
+	<globalevent name="init" type="startup" event="script" value="init.lua"/>
+	<!-- <globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/> -->
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+    <!-- <globalevent name="online-updater" interval="30000" script="online-updater.lua"/>  -->
+    <!-- globalevent name="history" interval="60" script="history.lua"/ -->  
+	<globalevent name="ShopSystem" interval="30000" script="shop.lua"/>
+    <!-- <globalevent name="wars" interval="1800" event="script" value="wars.lua"/> -->
+	<!-- globalevent name="LSMArena" interval="10000" script="lms/arena.lua"/> -->
+ <globalevent name="daysremover" time="6:05:00" script="daysremover.lua"/>
+<globalevent name="openme" time="6:05:00" script="openme.lua"/>
+<!--globalevent name="" time="12:05:00" script="zombies.lua"/>
+
+-->
+
+</globalevents>

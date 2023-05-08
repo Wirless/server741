@@ -1,0 +1,4 @@
+<npc name="Halvar" script="data/npc/scripts/Svargrond/Halvar.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="134" head="1" body="78" legs="112" feet="97" corpse="5995"/>
+</npc>

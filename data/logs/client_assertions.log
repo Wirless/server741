@@ -1,0 +1,193 @@
+----- 1/2/2019 2:22:30 - Ellum (5.173.16.69) -----
+
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 1
+Last Packet Types: 210 162 141 130 161 160 120 121 121 121
+Last Packet: 065 014 010 014 094 000 016 050 000 000 100 091 126 216 125 007
+Player Position: [32347,32216,7]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 109: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 692: exception occurred (Surface = 1), reason:
+ContentWindows.cpp 2452: exception occurred (Surface = 1), reason:
+graphics.cpp 1137: exception occurred (Surface = 1), reason:
+Objects.cpp 594: exception occurred (Number = 255), reason:
+Objects.cpp 241: assertion failed (PatternX = 3) (Entry.PatternWidth = 1), reason:
+In(PatternX,1,Entry.PatternWidth)
+Fri Feb 01 02:21:47 2019
+Debug Assertion 7.72 Objects.cpp 241
+
+----- 3/2/2019 1:28:58 - Ellum (5.173.9.30) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 1
+Last Packet Types: 109 131 106 030 162 143 109 170 109 109
+Last Packet: 057 000 106 254 129 198 123 008 097 000 101 012 000 064 152 093
+Player Position: [33275,31685,8]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+GUI.cpp 1408: exception occurred (Surface = 1), reason:
+MapWindow.cpp 834: exception occurred (Surface = 1), reason:
+MapWindow.cpp 527: exception occurred (Obj = 101), reason:
+MapWindow.cpp 1062: exception occurred (posx = 288) (posy = 160), reason:
+MapWindow.cpp 927: exception occurred, reason:
+Objects.cpp 484: exception occurred (Number = 587) (Flag = 24), reason:
+Container.h 178: index out of range (original i: 587, i: 586, min: 1, d: 565)
+Sun Feb 03 01:28:37 2019
+Debug Assertion 7.72 Container.h 178
+
+----- 8/2/2019 18:16:27 - Bono (82.39.226.204) -----
+Comment: 
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: 2
+Last Packet Types: 170 131 180 160 112 160 114 109 109 109
+Last Packet: 098 000 114 000 003 160 179 000 185 000 209 000 104 016 000 000
+Player Position: [32347,32224,7]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+GUI.cpp 1408: exception occurred (Surface = 1), reason:
+MapWindow.cpp 834: exception occurred (Surface = 1), reason:
+MapWindow.cpp 527: exception occurred (Obj = 4524), reason:
+MapWindow.cpp 1062: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1054: exception occurred (EffectNumber = 0), reason:
+Objects.cpp 643: exception occurred (Number = 80), reason:
+Container.h 178: index out of range (original i: 80, i: 79, min: 1, d: 78)
+Fri Feb 08 17:15:23 2019
+Debug Assertion 7.72 Container.h 178
+
+----- 9/2/2019 3:36:9 - Megapower (190.72.145.105) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 109 109 109 030 109 109 109 109 109 030
+Last Packet: 012 000 109 132 126 231 125 007 001 133 126 231 125 007 051 051
+Player Position: [32390,32225,8]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 109: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 692: exception occurred (Surface = 1), reason:
+ContentWindows.cpp 1666: exception occurred (Surface = 1), reason:
+graphics.cpp 1182: unknown exception occurred (Surface = 1) (PictureNumber = 4)
+Sat Feb 09 03:25:56 2019
+Debug Assertion 7.72 graphics.cpp 1182
+
+----- 9/2/2019 19:35:20 - Lord Hellsing (201.243.60.14) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 108 131 134 130 161 132 131 106 140 140
+Last Packet: 007 000 108 184 128 254 125 007 001 051 051 051 051 051 051 051
+Player Position: [32954,32254,7]
+Player.cpp 383: exception occurred, reason:
+Network.cpp 885: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1280: exception occurred (Type = 108), reason:
+Communication.cpp 1661: exception occurred (rx = 6) (ry = 6), reason:
+Communication.cpp 1649: assertion failed (rx = 6) (ry = 6), reason:
+FieldRefreshRequested(rx,ry,rz)
+Sat Feb 09 14:33:54 2019
+Debug Assertion 7.72 Communication.cpp 1649
+
+----- 10/2/2019 20:20:43 - Jquiless (190.75.63.214) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 108 108 180 131 109 030 109 106 109 109
+Last Packet: 007 000 108 192 129 065 124 008 001 051 051 051 051 051 051 051
+Player Position: [33217,31813,8]
+Player.cpp 383: exception occurred, reason:
+Network.cpp 885: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1280: exception occurred (Type = 108), reason:
+Communication.cpp 1661: exception occurred (rx = 7) (ry = 2), reason:
+Communication.cpp 1649: assertion failed (rx = 7) (ry = 2), reason:
+FieldRefreshRequested(rx,ry,rz)
+Sat Feb 09 18:44:40 2019
+Debug Assertion 7.72 Communication.cpp 1649
+
+----- 10/2/2019 20:34:45 - Megapower (190.72.145.105) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 110 109 104 109 109 108 106 106 132 160
+Last Packet: 032 000 110 002 147 015 010 000 100 101 097 100 032 116 114 111
+Player Position: [32342,32134,8]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 109: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 692: exception occurred (Surface = 1), reason:
+ContentWindows.cpp 2063: exception occurred (Surface = 1), reason:
+graphics.cpp 1273: unknown exception occurred (Surface = 1) (FontNumber = 4)
+Sun Feb 10 20:32:18 2019
+Debug Assertion 7.72 graphics.cpp 1273
+
+----- 11/2/2019 4:43:38 - Megapower (190.72.145.105) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 160 160 030 160 030 160 160 030 160 180
+Last Packet: 021 000 160 024 001 024 001 131 001 038 110 004 000 027 000 085
+Player Position: [32421,32227,9]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 109: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 692: exception occurred (Surface = 1), reason:
+ContentWindows.cpp 1666: exception occurred (Surface = 1), reason:
+graphics.cpp 1100: exception occurred (Surface = 1), reason:
+graphics.cpp 984: unknown exception occurred (Surface = 1) (SpriteNumber = 1317)
+Mon Feb 11 04:42:07 2019
+Debug Assertion 7.72 graphics.cpp 984
+
+----- 11/2/2019 4:58:54 - Megapower (190.72.145.105) -----
+Comment: 
+Windows Version: 6.1 build 7601 on 2 with Service Pack 1
+Graphic Engine: 2
+Last Packet Types: 160 030 130 160 030 160 160 030 160 130
+Last Packet: 021 000 160 024 001 024 001 128 001 038 110 004 000 027 000 085
+Player Position: [32421,32227,9]
+Player.cpp 383: exception occurred, reason:
+Player.cpp 456: exception occurred, reason:
+Control.cpp 1560: exception occurred (Type = 0), reason:
+Control.cpp 366: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 127: exception occurred (Surface = 1), reason:
+GUI.cpp 1408: exception occurred (Surface = 1), reason:
+MapWindow.cpp 834: exception occurred (Surface = 1), reason:
+MapWindow.cpp 550: unknown exception occurred
+Mon Feb 11 04:58:12 2019
+Debug Assertion 7.72 MapWindow.cpp 550
+
+----- 9/4/2021 21:53:3 - Elias Ziani (77.199.72.47) -----
+Comment: 
+Windows Version: 6.2 build 9200 on 2
+Graphic Engine: 2
+Last Packet Types: 030 109 181 102 109 103 109 103 109 104
+Last Packet: 001 000 030 051 051 051 051 051 000 000 000 000 000 000 000 000
+Player Position: [33216,32401,7]
+Player.cpp 383: exception occurred, reason:
+MainFrm.cpp 588: exception occurred (point.x = 576) (point.y = 393), reason:
+Control.cpp 566: exception occurred (x = 576) (y = 393), reason:
+Dialogs.cpp 880: exception occurred (x = 81) (y = 181), reason:
+GUI.cpp 1496: exception occurred (x = 81) (y = 181), reason:
+GUI.cpp 1496: exception occurred (x = 63) (y = 149), reason:
+DialogElements.cpp 1174: exception occurred (x = 63) (y = 17), reason:
+GUI.cpp 1931: exception occurred, reason:
+Dialogs.cpp 2918: unknown exception occurred (Event = 706)
+Fri Apr 09 21:52:57 2021
+Debug Assertion 7.72 Dialogs.cpp 2918
+

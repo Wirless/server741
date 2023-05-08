@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<outfits>
+	<outfit id="1">
+		<list gender="0" lookType="161"  name="Citizen"/>
+		<list gender="1" lookType="229" name="Citizen"/>
+	</outfit>
+
+	<outfit id="2">
+		<list gender="0" lookType="162"  name="Hunter"/>
+		<list gender="1" lookType="230" name="Hunter"/>
+	</outfit>
+
+	<outfit id="3">
+		<list gender="0" lookType="163" name="Mage"/>
+		<list gender="1" lookType="231" name="Mage"/>
+	</outfit>
+
+	<outfit id="4">
+		<list gender="0" lookType="164" name="Knight"/>
+		<list gender="1" lookType="232" name="Knight"/>
+	</outfit>
+
+	<outfit id="5">
+		<list gender="0" lookType="165" name="Noblewoman"/>
+		<list gender="1" lookType="233" name="Nobleman"/>
+	</outfit>
+
+	<outfit id="6">
+		<list gender="0" lookType="166" name="Summoner"/>
+		<list gender="1" lookType="234" name="Summoner"/>
+	</outfit>
+
+	<outfit id="7">
+		<list gender="0" lookType="167" name="Warrior"/>
+		<list gender="1" lookType="235" name="Warrior"/>
+	</outfit>
+	
+	<outfit id="8">
+		<list gender="0" lookType="168" name="CitizenPremium"/>
+		<list gender="1" lookType="236" name="CitizenPremium"/>
+	</outfit>
+
+	<outfit id="9">
+		<list gender="0" lookType="169" storageId="133" name="HunterPremium"/>
+		<list gender="1" lookType="237" storageId="133" name="HunterPremium"/>
+	</outfit>
+	
+
+	<outfit id="10">
+		<list gender="0" lookType="170" storageId="133" name="MagePremium"/>
+		<list gender="1" lookType="238" storageId="133" name="MagePremium"/>
+	</outfit>
+
+	<outfit id="11">
+		<list gender="0" lookType="171" storageId="133" name="KnightPremium"/>
+		<list gender="1" lookType="239" storageId="133" name="KnightPremium"/>
+	</outfit>
+
+	<outfit id="12">
+		<list gender="0" lookType="172" storageId="133" name="NoblePremium"/>
+		<list gender="1" lookType="240" storageId="133" name="NoblePremium"/>
+	</outfit>
+
+	<outfit id="13">
+		<list gender="0" lookType="173" storageId="133" name="SummonerPremium"/>
+		<list gender="1" lookType="241" storageId="133" name="SummonerPremium"/>
+	</outfit>
+
+	<outfit id="14">
+		<list gender="0" lookType="174" storageId="133" name="WarriorPremium"/>
+		<list gender="1" lookType="242" storageId="133" name="WarriorPremium"/>
+	</outfit>
+
+
+	<outfit id="15">
+		<list gender="0" lookType="175" storageId="133" name="BarbarianPremium"/>
+		<list gender="1" lookType="243" storageId="133" name="BarbarianPremium"/>
+	</outfit>
+
+	<outfit id="16">
+		<list gender="0" lookType="176" storageId="133" name="DruidPremium"/>
+		<list gender="1" lookType="244" storageId="133" name="DruidPremium"/>
+	</outfit>
+
+	<outfit id="17">
+		<list gender="0" lookType="177" storageId="133" name="WizardPremium"/>
+		<list gender="1" lookType="245" storageId="133" name="WizardPremium"/>
+	</outfit>
+
+	<outfit id="18">
+		<list gender="0" lookType="178" storageId="133" name="OrientalPremium"/>
+		<list gender="1" lookType="246" storageId="133" name="OrientalPremium"/>
+	</outfit>
+
+	<outfit id="19">
+		<list gender="0" lookType="179" storageId="133" name="PiratePremium"/>
+		<list gender="1" lookType="247" storageId="133" name="PiratePremium"/>
+	</outfit>
+	
+	<outfit id="20">
+		<list gender="0" lookType="180" storageId="133" name="AssasinPremium"/>
+		<list gender="1" lookType="248" storageId="133" name="AssasinPremium"/>
+	</outfit>
+
+	<outfit id="21">
+		<list gender="0" lookType="181" storageId="133" name="BeggarPremium"/>
+		<list gender="1" lookType="249" storageId="133" name="BeggarPremium"/>
+	</outfit>
+
+	<outfit id="22">
+		<list gender="0" lookType="182" storageId="133" name="ShamanPremium"/>
+		<list gender="1" lookType="250" storageId="133" name="ShamanPremium"/>
+	</outfit>
+
+	<outfit id="23">
+		<list gender="0" lookType="183" storageId="133" name="NorsemanPremium"/>
+		<list gender="1" lookType="251" storageId="133" name="NorsemanPremium"/>
+	</outfit>
+
+	<outfit id="24">
+		<list gender="0" lookType="184" storageId="133" name="NightmarePremium"/>
+	</outfit>
+
+	<outfit id="25">
+		<list gender="0" lookType="185" storageId="133" name="DemonHunterPremium"/>
+		<list gender="1" lookType="252" storageId="133" name="DemonHunterPremium"/>
+	</outfit>
+
+	<outfit id="26">
+		<list gender="0" lookType="186" storageId="133" name="BrotherHoodPremium"/>
+		<list gender="1" lookType="253" storageId="133" name="BrotherHoodPremium"/>
+	</outfit>
+
+	<outfit id="27">
+		<list gender="0" lookType="187" storageId="133" name="187"/>
+		<list gender="1" lookType="254" storageId="133" name="254"/>
+	</outfit>
+
+	<outfit id="28">
+		<list gender="0" lookType="188" storageId="133" name="188"/>
+		<list gender="1" lookType="255" storageId="133" name="255"/>
+	</outfit>
+
+	<outfit id="29">
+		<list gender="0" lookType="189" storageId="133" name="189"/>
+		<list gender="1" lookType="256" storageId="133" name="256"/>
+	</outfit>
+
+<outfit id="30">
+		<list gender="0" lookType="190" storageId="133" name="190"/>
+		<list gender="1" lookType="257" storageId="133" name="257"/>
+	</outfit>
+	
+<outfit id="31">
+		<list gender="0" lookType="191" storageId="133" name="191"/>
+		<list gender="1" lookType="258" storageId="133" name="258"/>
+	</outfit>
+<outfit id="32">
+		<list gender="0" lookType="192" storageId="133" name="192"/>
+		<list gender="1" lookType="259" storageId="133" name="259"/>
+	</outfit>
+<outfit id="33">
+		<list gender="0" lookType="193" storageId="133" name="193"/>
+		<list gender="1" lookType="260" storageId="133" name="260"/>
+	</outfit>
+<outfit id="34">
+		<list gender="0" lookType="194" storageId="133" name="194"/>
+		<list gender="1" lookType="261" storageId="133" name="261"/>
+	</outfit>
+<outfit id="35">
+		<list gender="0" lookType="195" storageId="133" name="195"/>
+		<list gender="1" lookType="262" storageId="133" name="262"/>
+	</outfit>
+<outfit id="36">
+		<list gender="0" lookType="196" storageId="133" name="196"/>
+		<list gender="1" lookType="263" storageId="133" name="263"/>
+	</outfit>
+<outfit id="37">
+		<list gender="0" lookType="197" storageId="133" name="197"/>
+		<list gender="1" lookType="264" storageId="133" name="264"/>
+	</outfit>
+<outfit id="38">
+		<list gender="0" lookType="198" storageId="133" name="198"/>
+	</outfit>
+<outfit id="39">
+		<list gender="0" lookType="199" storageId="133" name="199"/>
+	</outfit>
+	<outfit id="40">
+		<list gender="0" lookType="200" storageId="133" name="200"/>
+	</outfit>
+	
+	
+	
+</outfits>

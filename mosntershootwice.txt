@@ -1,0 +1,19 @@
+
+
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_FIREDAMAGE)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_FIREATTACK)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_FIRE)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -10, -1, -20, 5, 5, 1.4, 2.1)
+
+local function f(cid, combat, var)
+	if isPlayer(cid) and isCreature(variantToNumber(var)) then
+		doCombat(cid, combat, var)
+	end
+end
+
+function onCastSpell(cid, var)
+	doCombat(cid, combat, var)
+	addEvent(f, 500, cid, combat, var)
+	return true
+end

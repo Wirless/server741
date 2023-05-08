@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="lizard chosen" nameDescription="a lizard chosen" race="blood" experience="7700" speed="200" manacost="0">
+  <health now="6500" max="6500"/>
+  <look type="365" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="300"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="88" attack="90"/>
+    <attack name="physical" interval="2000" chance="15" range="7" min="-155" max="-335">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+	<attack name="physical" interval="2000" chance="15" range="7" min="-105" max="-225">
+      <attribute key="shootEffect" value="bolt"/>
+    </attack>
+  </attacks>
+  <defenses armor="32" defense="48">
+    <defense name="healing" interval="2000" chance="25" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="rzzzzzzz!" yell="1"/>
+    <voice sentence="Garrrblarrrrzzzz!" yell="1"/>
+  </voices>
+	<loot>
+   	<item id="2148" countmax="100" chance="32000" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="32000" /><!-- gold coin -->
+		<item id="2148" countmax="27" chance="32000" /><!-- gold coin -->
+		<item id="2152" countmax="2" chance="4900" /><!-- platinum coin -->
+		<item id="2528" chance="4040" /><!-- tower shield -->
+		<item id="2392" chance="8000" /><!-- firesword -->
+		<item id="2414" chance="3040" /><!-- dlance -->
+				<item id="2827" chance="1040" /><!-- dlance -->
+		<item id="2498" chance="1300" /><!-- tower shield -->
+		<item id="5828" chance="500" /> <!--mar-->
+</loot>
+</monster>

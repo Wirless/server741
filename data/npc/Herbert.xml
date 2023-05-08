@@ -1,0 +1,14 @@
+<npc name="Herbert" script="data/npc/scripts/Liberty Bay/Herbert.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="78" legs="116" feet="75"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Hello. How may I help you |PLAYERNAME|?"/>
+<parameter key="message_placedinqueue" value="I am already talking to a customer, |PLAYERNAME|. Please wait a moment."/>
+<parameter key="message_walkaway" value="It was a pleasure to help you |PLAYERNAME|."/>
+<parameter key="message_farewell" value="It was a pleasure to help you."/>
+<parameter key="message_idletimeout" value="It was a pleasure to help you."/>
+
+<parameter key="message_decline" value="Ok."/>
+	</parameters>
+</npc>

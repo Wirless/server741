@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Djinn Specialist" script="specialist.lua" walkinterval="2000" speed="100" walkradius="3" talkradius="2" floorchange="0">
+	<health max="100" now="100"/>
+	<look type="80" head="59" body="0" legs="0" feet="0" addons="0" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I Sell and buy a lot of items."/>
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!"/>
+	</parameters>
+</npc>

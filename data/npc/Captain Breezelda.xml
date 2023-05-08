@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Breezelda" script="data/npc/scripts/svargrond/Captain Breezelda.lua" floorchange="0" walkinterval="1500" speed="100">
+<health now="100" max="100"/>
+<look type="142" head="97" body="23" legs="28" feet="76" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Where do you want to sail?"/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Bye." />
+    </parameters>
+</npc>

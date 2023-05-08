@@ -1,0 +1,1 @@
+Amazonatkholy = 150

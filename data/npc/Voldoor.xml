@@ -1,0 +1,15 @@
+<npc name="Voldoor" script="data/npc/scripts/Vangloria/Voldoor.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="129" head="95" body="80" legs="95" feet="57"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. What do you need?"/>
+<parameter key="message_placedinqueue" value="Sorry |PLAYERNAME|, I am already talking to a customer. Wait a moment."/>
+<parameter key="message_walkaway" value="Good bye."/>
+<parameter key="message_farewell" value="Good bye."/>
+<parameter key="message_idletimeout" value="Good bye."/>
+
+<parameter key="message_decline" value="Hmm, but next time."/>
+<parameter key="message_needmoremoney" value="Come back, when you have enough money."/>
+	</parameters>
+</npc>

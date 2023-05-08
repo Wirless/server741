@@ -1,0 +1,10 @@
+<npc name="Aaron Elemiaz" script="data/npc/scripts/Rookgaard/Aaron Elemiaz.lua" floorchange="0" walkinterval="0" speed="100">
+	<health now="100" max="100"/>
+	<look type="128" head="128" body="130" legs="53" feet="120"/>
+	<parameters>
+<parameter key="message_placedinqueue" value="Screw you and go away!"/>
+<parameter key="message_walkaway" value="Bye."/>
+<parameter key="message_farewell" value="Bye."/>
+<parameter key="message_idletimeout" value="Then come on bitch!"/>
+	</parameters>
+</npc>

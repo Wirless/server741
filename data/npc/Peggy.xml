@@ -1,0 +1,12 @@
+<npc name="Peggy" script="data/npc/scripts/Liberty Bay/Peggy.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="136" head="77" body="9" legs="95" feet="94"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_greet" value="Welcome |PLAYERNAME|! What can I do for you?"/>
+<parameter key="message_placedinqueue" value="Sorry |PLAYERNAME|, I am already talking to a customer. Please wait."/>
+<parameter key="message_walkaway" value="Good bye."/>
+<parameter key="message_farewell" value="Good bye."/>
+<parameter key="message_idletimeout" value="Good bye."/>
+	</parameters>
+</npc>

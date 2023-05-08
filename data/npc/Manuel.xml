@@ -1,0 +1,8 @@
+<npc name="Manuel" script="data/npc/scripts/Vangloria/Manuel.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="131" head="57" body="61" legs="59" feet="95"/>
+	<parameters>
+<parameter key="message_farewell" value="Good bye and come again." />
+<parameter key="message_needmoremoney" value="Sorry, you do not have enough copper." />
+	</parameters>
+</npc>

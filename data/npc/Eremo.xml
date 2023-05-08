@@ -1,0 +1,16 @@
+<npc name="Bunio" script="data/npc/scripts/Edron/Eremo.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="179" head="1" body="114" legs="95" feet="114"/>
+	<parameters>
+<parameter key="idletime" value="30"/>
+<parameter key="message_greet" value="Welcome bobasku |PLAYERNAME|!"/>
+<parameter key="message_placedinqueue" value="Please wait bobasku |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Shouldn't I teleport you back to Pemaret?"/>
+<parameter key="message_farewell" value="Shouldn't I teleport you back to Pemaret?"/>
+<parameter key="message_idletimeout" value="Shouldn't I teleport you back to Pemaret?"/>
+
+<parameter key="message_decline" value="Maybe another time."/>
+<parameter key="message_nothaveitem" value="Sorry, you do not own one."/>
+<parameter key="message_needmoremoney" value="Sorry, you do not have enough copper."/>
+	</parameters>
+</npc>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard High Guard" nameDescription="a lizard high guard" race="blood" experience="6000" speed="320" manacost="0">
+	<health now="4400" max="4400"/>
+	<look type="358" corpse="3058"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="75" attack="115"/>
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="healing" interval="2000" chance="10" min="25" max="75">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity earth="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Hizzzzzzz!"/>
+		<voice sentence="To armzzzz!"/>
+		<voice sentence="Engage zze aggrezzor!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="32000" /><!-- gold coin -->
+		<item id="2148" countmax="100" chance="32000" /><!-- gold coin -->
+		<item id="2148" countmax="27" chance="32000" /><!-- gold coin -->
+		<item id="2152" countmax="2" chance="4900" /><!-- platinum coin -->
+		<item id="2528" chance="4040" /><!-- tower shield -->
+		<item id="2392" chance="8000" /><!-- firesword -->
+		<item id="2414" chance="3040" /><!-- dlance -->
+		<item id="2498" chance="1300" /><!-- tower shield -->
+		<item id="5826" chance="300" /><!-- tower shield -->
+		<item id="5827" chance="400" />
+
+	</loot>
+</monster>

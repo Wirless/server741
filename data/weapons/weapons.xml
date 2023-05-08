@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<!-- Rods -->
+<!-- Rods -->
+	<wand id="7090" event="script" value="rod.lua"> <!-- terra Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="7091" event="script" value="snakebite.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	
+	<wand id="7096" event="script" value="woi.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	
+	<wand id="7094" event="script" value="necrotic.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="7097" event="script" value="decay.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="7095" event="script" value="moonlight.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+		
+	</wand>	<wand id="7092" event="script" value="hailstorm.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	
+	<wand id="7099" event="script" value="vortex.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	
+	<wand id="7098" event="script" value="woce.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+	
+	<wand id="7100" event="script" value="dragonbreath.lua"> <!-- Snakebite Rod -->
+		<vocation id="2"/>
+		<vocation id="6"/>
+		<vocation id="1"/>
+		<vocation id="5"/>
+	</wand>
+
+	<!-- <wand id="8911" level="22" mana="5" min="27" max="33" type="ice" event="function" value="default"> Northwind Rod 
+		<vocation id="2"/>
+		<vocation id="6"/>
+	</wand>-->
+
+	<!-- Bows and Crossbows -->
+		<!-- Crossbow -->
+	<distance id="2455" event="function" value="default"/>
+	<distance id="5754" event="function" value="default"/>
+	<distance id="5912" event="function" value="default"/>
+	<distance id="5913" event="function" value="default"/>
+	<distance id="5914" event="function" value="default"/>
+
+		<!-- Bow -->
+	<distance id="2456" event="function" value="default"/>
+	<distance id="5538" event="function" value="default"/>
+<distance id="5915" event="function" value="default"/>
+<distance id="5916" event="function" value="default"/>
+	<distance id="5917" event="function" value="default"/>
+
+ 	<!-- Ammunition -->
+	<distance id="2545" event="script" value="poison_arrow.lua"/> <!-- Poison Arrow -->
+	<distance id="2546" event="script" value="burst_arrow.lua"/> <!-- Burst Arrow -->
+	<!--<distance id="5836" event="script" value="assassin_star.lua"/>ass -->
+	<melee id="2392" event="script" value="fire_sword.lua"/> <!-- Poison Arrow -->
+	<melee id="2411" event="script" value="poisonknife.lua"/><!--poison knife -->
+	
+	
+	
+	---- MELEEE
+	
+
+	<!--
+	<movevent event="Equip" itemid="2376-2386" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2376-2386" slot="hand" function="onDeEquipItem" />
+<movevent event="Equip" itemid="2412-2432" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2412-2432" slot="hand" function="onDeEquipItem" />
+<movevent event="Equip" itemid="2434-2454" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2434-2454" slot="hand" function="onDeEquipItem" />
+<movevent event="Equip" itemid="2387-2388" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2387-2388" slot="hand" function="onDeEquipItem" />	
+	
+	<movevent event="Equip" itemid="2390-2398" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2390-2398" slot="hand" function="onDeEquipItem" />	
+	
+	<movevent event="Equip" itemid="2400-2410" slot="hand" function="onEquipItem" /> xxx
+	<movevent event="DeEquip" itemid="2400-2410" slot="hand" function="onDeEquipItem" />	
+
+	-->
+
+</weapons>

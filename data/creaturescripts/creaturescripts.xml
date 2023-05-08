@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+    <event type="moveitem" name="MoveBlock" event="script" value="moveblock.lua"/>
+	
+	<event type="channeljoin" name="GuildEvents" event="script" value="guild.lua"/>
+	<event type="mailreceive" name="Mail" event="script" value="mail.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="advance" name="levelreward" event="script" value="levelreward.lua"/>
+<event type="login" name="AntiMC" event="script" value="antimc.lua"/>
+<!-- REWARDDS
+
+-->
+
+
+
+
+	<event type="login" name="GoldenAccount" event="script" value="goldenaccount.lua"/>
+
+<!--<event type="login" name="admin" event="script" value="admins.lua"/>-->
+    <event type="kill" name="WarKill" event="script" value="warkill.lua"/>
+<event type="look" name="look" event="script" value="look.lua"/>
+   <event type="kill" name="BonusLoot" event="script" value="loot.lua"/> -
+    <!--<event type="death" name="OrshabaalEvent" event="script" value="worldevent/orshbaalevent.lua"/> -->
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<!--  <event type="kill" name="KillTask" event="script" script="killtask.lua"/> -->
+ <!-- <event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/> -->
+ <event type="kill" name="KillingInTheNameOf" event="script" value="killinginthenameof.lua"/>
+ <event type="death" name="aolremove" event="script" value="aolremove.lua"/>
+<!-- <event type="preparedeath" name="Soon" event="script" value="soon.lua"/>
+<event type="target" name="LMSTarget" event="script" value="lms.lua"/>
+<event type="statschange" name="LMSAttack" event="script" value="lms.lua"/>
+<event type="login" name="LMSLogout" event="script" value="lms.lua"/>
+<event type="think" name="LMSSummon" event="script" value="lms.lua"/>
+ -->
+</creaturescripts>

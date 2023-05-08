@@ -1,0 +1,11 @@
+<npc name="Malunga" script="data/npc/scripts/Liberty Bay/Malunga.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="137" head="114" body="121" legs="96" feet="116"/>
+	<parameters>
+<parameter key="idletime" value="60"/>
+<parameter key="message_placedinqueue" value="Wait a moment, |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Farewell."/>
+<parameter key="message_farewell" value="Farewell."/>
+<parameter key="message_idletimeout" value="Farewell."/>
+	</parameters>
+</npc>

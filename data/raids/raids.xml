@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<!-- <raid name="OrcsThais" file="OrcsThais.xml" interval2="7200" margin="60" enabled="yes"/>		
+	<raid name="Elfs" file="Elfs.xml" interval2="8000" margin="60" enabled="yes"/>	
+	<raid name="Rats" file="Rats.xml" interval2="1500" margin="60" enabled="yes"/>		
+	<raid name="Scarabs" file="Scarabs.xml" interval2="8000" margin="60" enabled="yes"/>
+	<raid name="UndeadDarashia" file="UndeadDarashia.xml" interval2="10000" margin="60" enabled="yes"/>	
+
+-->
+	<raid name="OrcsThais" file="OrcsThais.xml" interval2="72000" margin="60" enabled="yes"/>		
+	<raid name="Elfs" file="Elfs.xml" interval2="80000" margin="60" enabled="yes"/>	
+	<raid name="Rats" file="Rats.xml" interval2="15000" margin="60" enabled="yes"/>		
+	<raid name="Scarabs" file="Scarabs.xml" interval2="80000" margin="60" enabled="yes"/>
+	<raid name="UndeadDarashia" file="UndeadDarashia.xml" interval2="100000" margin="60" enabled="yes"/>	
+	<raid name="UndeadArmy" file="UndeadArmy.xml" interval2="70000" margin="60" enabled="yes"/>
+
+
+	<raid name="orshabaal" file="orshabaal.xml" interval2="80000" margin="60" />
+
+		<raid name="snakez" file="snakez.xml" interval2="70000" margin="60" enabled="yes"/>
+</raids>

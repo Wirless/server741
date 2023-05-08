@@ -1,0 +1,10 @@
+<npc name="Benny Carter" script="data/npc/scripts/Rookgaard/Benny Carter.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="134" head="131" body="12" legs="81" feet="38"/>
+	<parameters>
+<parameter key="message_placedinqueue" value="Hang on please, I'm with you in just a minute!"/>
+<parameter key="message_walkaway" value="It's rude walk away without say bye.."/>
+<parameter key="message_farewell" value="Good bye for now."/>
+<parameter key="message_idletimeout" value="Good bye for now."/>
+	</parameters>
+</npc>
